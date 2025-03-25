@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#sidebar {
+    width: 280px;
+    background: #2C3E50;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+#sidebar img {
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+#sidebar h4, #sidebar p {
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #34495E;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sidebar ul li:hover {
+    background: #1ABC9C;
+}
+
+#page-content-wrapper {
+    margin-left: 300px;
+    padding: 20px;
+    width: 100%;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2C3E50;
+    border-bottom: 3px solid #1ABC9C;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2C3E50;
+    color: white;
+    margin-top: 20px;
+}
